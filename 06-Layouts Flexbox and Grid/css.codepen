@@ -1,0 +1,29 @@
+ html {
+  box-sizing: border-box;
+} 
+
+.wrapper {
+  font-size: 20px;
+  width: 800px;
+  margin: 0 auto;
+}
+header, footer {
+  background: #ccc;
+  height: 50px;
+}
+aside {
+  background: lightblue;
+  height: 250px;
+  width: 200px;
+  float: left;
+}
+article {
+  background: lightgreen;
+  height: 250px;
+  width: 600px;
+  float: left;
+
+}
+footer {
+  clear: both;
+}
