@@ -1,0 +1,43 @@
+.flex-container {
+  background: lightblue;
+  display: flex;
+  flex-direction: row; /*not required, it's set by default*/
+}
+.flex-item {
+/*   box-sizing: border-box; */
+  border: 1px solid blue;
+  padding: 10px;
+  flex: 1 1 auto;
+  height: 150px;
+  overflow:hidden;
+}
+
+.flex-container2 {
+  background: khaki;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+/*   height: 85%; */
+}
+.flex-item2 {
+  border: 1px solid yellow;
+  flex: 1 1 auto;
+  height: 2rem;
+  padding: 4px;
+}
+
+.flex-container3 {
+  background: khaki;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+/*   height: 85%; */
+}
+
+.flex-container4 {
+  background: khaki;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+/*   height: 85%; */
+}
